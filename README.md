@@ -22,7 +22,7 @@ Veja o jogo Pong funcionando na BitDogLab:
 ---
 ## 📊 Diagrama do Projeto
 
-![Diagrama funcional do jogo](docs\Diagram_game.png)
+![Diagrama funcional do jogo](docs/Diagram_game.png)
 
 
 Figura: Diagrama de Integração do Pong Game com Raspberry Pi Pico W
