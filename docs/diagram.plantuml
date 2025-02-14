@@ -1,0 +1,17 @@
+@startuml
+title Integração de Periféricos com Raspberry Pi Pico W
+
+component "Raspberry Pi Pico W" as PicoW
+
+component "OLED Display (SSD1306)" as Display
+component "Joystick" as Joystick
+component "Reset Button" as ResetButton
+component "Buzzers" as Buzzers
+component "LEDs WS2812B" as LEDs
+
+PicoW --> Display : I2C (GPIO 14 - SDA, GPIO 15 - SCL)
+PicoW --> Joystick : GPIO 26 (VRX), GPIO 27 (VRY), GPIO 16 (Button)
+PicoW --> ResetButton : GPIO 5
+PicoW --> Buzzers : GPIO 21 (Collision), GPIO 8 (Point), PWM
+PicoW --> LEDs : GPIO 7, PIO
+@enduml
