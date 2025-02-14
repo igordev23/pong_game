@@ -17,7 +17,7 @@ Criar uma versão simplificada do clássico jogo Pong, com os seguintes recursos
 
 Veja o jogo Pong funcionando na BitDogLab:
 
-[Vídeo do Jogo](https://youtube.com/shorts/BFU4RABxE-4?si=h51EA3w8TT1ZtOF9)
+[Vídeo do Jogo](https://youtube.com/shorts/UdIF24pxVKo?si=0c8omgrfYL88CM12)
 
 ---
 ## 📊 Diagrama do Projeto
